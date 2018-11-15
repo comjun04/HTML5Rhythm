@@ -14,3 +14,7 @@ button#start_btn:hover {
 	color:black;
 	background-color:white;
 }
+div#topBar {
+	width: 100%;
+	background-color: orange;
+}
