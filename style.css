@@ -51,6 +51,9 @@ ul.topnav li.btn {
 ul.topnav li.btn:hover {
 	background-color: #777;
 }
+ul.topnav li#settingsBtn {
+	float:right;
+}
 div#selectScreen {
 	height:100%;
 }
