@@ -1,3 +1,13 @@
+html {
+	height:100%;
+	margin:0;
+	padding:0;
+}
+body {
+	height: 100%;
+	margin:0;
+	padding:0;
+}
 span#title {
 	font-size:40px;
 }
@@ -22,6 +32,8 @@ ul.topnav {
 	padding:0;
 	overflow:hidden;
 	background-color:#333;
+	height:41px;
+	vertical-align:center;
 }
 ul.topnav li {
 	float:left;
@@ -38,6 +50,9 @@ ul.topnav li.btn {
 }
 ul.topnav li.btn:hover {
 	background-color: #777;
+}
+div#selectScreen {
+	height:100%;
 }
 div#selectList {
 	width: 30%;
