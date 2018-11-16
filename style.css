@@ -14,7 +14,50 @@ button#start_btn:hover {
 	color:black;
 	background-color:white;
 }
-div#topBar {
-	width: 100%;
-	background-color: orange;
+
+/*select.html*/
+ul.topnav {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	background-color:#333;
+}
+ul.topnav li {
+	float:left;
+	color:white;
+	color: black;
+	padding: 10px 16px;
+	text-align:center;
+	background-color:transparent;
+	color:white;
+}
+ul.topnav li.btn {
+	border:none;
+	transition:0.1s;
+}
+ul.topnav li.btn:hover {
+	background-color: #777;
+}
+div#selectList {
+	width: 30%;
+	background-color: #555;
+	padding: 10px;
+	color: white;
+}
+div#selectListInfo {
+	color:black;
+	padding: 3px;
+	background-color:white;
+	
+}
+div#selectList ul {
+	list-style-type:none;
+	overflow:auto;
+	padding:5px;
+}
+div#selectList ul li {
+	background-color: #888;
+	padding:10px 0;
+	border: 1px solid #fff;
 }

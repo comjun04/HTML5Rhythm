@@ -5,10 +5,23 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="style.css" />
+		<script src="game.js"></script>
 	</head>
 	<body>
-		<div id="topBar">
-			<a href="index.html" class="">홈으로</a>
+		<ul class="topnav">
+			<li class="btn" onclick="gotoHome()">&lt;</li>
+			<li>
+				<div style="">음악 선택</div>
+			</li>
+		</ul>
+		<div id="selectScreen">
+			<div id="selectList">
+				<div id="selectListInfo">선택</div>
+				<ul class="list">
+					<li>샘플 리스트</li>
+					<li>샘플 리스트</li>
+				</ul>
+			</div>
 		</div>
 	</body>
 </html>
