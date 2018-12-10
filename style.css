@@ -1,78 +1,9 @@
-html {
-	height:100%;
-	margin:0;
-	padding:0;
-}
 body {
-	height: 100%;
-	margin:0;
-	padding:0;
+	margin: 0;
 }
-span#title {
-	font-size:40px;
-}
-button#start_btn {
-	clear:both;
-	padding:10px;
-	background-color:black;
-	color:white;
-	white-space:normal;
-	//border:3px solid gray;
-	font-size:20px;
-}
-button#start_btn:hover {
-	color:black;
-	background-color:white;
-}
-
-/*select.html*/
-ul.topnav {
-	list-style-type:none;
-	margin:0;
-	padding:0;
-	overflow:hidden;
-	background-color:#333;
-	height:41px;
-	vertical-align:center;
-}
-ul.topnav li {
-	float:left;
-	color:white;
-	color: black;
-	padding: 10px 16px;
-	text-align:center;
-	background-color:transparent;
-	color:white;
-}
-ul.topnav li.btn {
-	border:none;
-	transition:0.1s;
-}
-ul.topnav li.btn:hover {
-	background-color: #777;
-}
-div#selectScreen {
-	height:100%;
-}
-div#selectList {
-	width: 30%;
-	background-color: #555;
-	padding: 10px;
+header {
+	background-color: #444444;
 	color: white;
-}
-div#selectListInfo {
-	color:black;
-	padding: 3px;
-	background-color:white;
 	
-}
-div#selectList ul {
-	list-style-type:none;
-	overflow:auto;
-	padding:5px;
-}
-div#selectList ul li {
-	background-color: #888;
-	padding:10px 0;
-	border: 1px solid #fff;
+	padding: 8px;
 }
