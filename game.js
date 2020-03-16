@@ -12,3 +12,8 @@ function gotoHome() {
 		window.location.replace("index.html");
 	}
 }
+
+// Go to Settings.html
+function gotoSettings() {
+	window.location.href = "settings.html";
+}
